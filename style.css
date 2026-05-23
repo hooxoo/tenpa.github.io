@@ -1,0 +1,150 @@
+:root {
+  --background-color: #D8DEE9;
+  --link-hover: #EBCB8B;
+  --link-heading: #81A1C1;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: #4C566A;
+  font-family: "Ioskeley Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maincard {
+  display: flex;
+  flex-direction: column;
+  background-color: #2E3440;
+  margin-top: 10%;
+  height: 800px;
+  width: 700px;
+  border-radius: 10px;
+  overflow: visible;
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+.content {
+  display: flex;
+  gap: 3rem;
+}
+.image {
+  max-width: 50%;
+  margin-right: 60px;
+}
+img {
+  max-height: 680px;
+  max-width: 400px;
+  height: 680px;
+  padding-left: 10px;
+  width: 400px;
+  padding-top: 15px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  width: 300px;
+  margin-top: 1rem;
+  padding-top: 5px;
+  margin-left: 55px;
+  color: #EBCB8B;
+  font-size: 18px;
+  font-weight: 100;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 2px;
+}
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+.links h3 {
+  color: var(--link-heading);
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+}
+a:hover {
+  color: var(--link-hover);
+  transform: scale(2);
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+a {
+  padding: 0px;
+  text-decoration: none;
+  color: aliceblue;
+}
+form {
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  border: none;
+  color: var(--link-heading);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+form input {
+  font-family: "Ioskeley Mono", monospace;
+  border: none;
+  background-color: #2E3440;
+  color: #D8DEE9;
+  font-size: 26px;
+  font-weight: 500;
+}
+form input:focus {
+  outline: none;
+}
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.autocomplete {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  right: 0;
+  width: 200px;
+  background: #3B4252;
+  border: 2px solid #4C566A;
+  border-radius: 0 0 8px 8px;
+  max-height: 280px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.autocomplete-item {
+  padding: 6px 16px;
+  color: #D8DEE9;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.autocomplete-item:hover,
+.autocomplete-item.selected {
+  background: #4C566A;
+  color: #EBCB8B;
+}
