@@ -27,7 +27,7 @@ body {
   margin-top: 10%;
   height: 800px;
   width: 700px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: visible;
   backdrop-filter: blur(7px);
   box-shadow: 0px 0px 15px rgb(0, 0, 0);
@@ -130,7 +130,7 @@ form input:focus {
   width: 200px;
   background: #3B4252;
   border: 2px solid #4C566A;
-  border-radius: 0 0 8px 8px;
+  /* border-radius: 0 0 8px 8px; */
   max-height: 280px;
   overflow-y: auto;
   z-index: 100;
