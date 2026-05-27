@@ -90,7 +90,7 @@ a:hover {
 a {
   padding: 0px;
   text-decoration: none;
-  color: aliceblue;
+  color: rgba(211, 198, 170, 1);
 }
 form {
   font-size: 2.5rem;
