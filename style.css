@@ -1,7 +1,7 @@
 :root {
-  --background-color: #D8DEE9;
-  --link-hover: #EBCB8B;
-  --link-heading: #81A1C1;
+  --background-color: #d3c6aa;
+  --link-hover: #e69875;
+  --link-heading: #a7c080;
 }
 * {
   padding: 0;
@@ -14,7 +14,7 @@ html {
   justify-content: center;
 }
 body {
-  background-color: #4C566A;
+  background-color: #3d484d;
   font-family: "Ioskeley Mono", monospace;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 .maincard {
   display: flex;
   flex-direction: column;
-  background-color: #2E3440;
+  background-color: #2d353b;
   margin-top: 10%;
   height: 800px;
   width: 700px;
@@ -62,7 +62,7 @@ section {
   margin-top: 1rem;
   padding-top: 5px;
   margin-left: 55px;
-  color: #EBCB8B;
+  color: #e69875;
   font-size: 18px;
   font-weight: 100;
   border-color: rgba(255, 255, 255, 0);
@@ -105,8 +105,8 @@ form {
 form input {
   font-family: "Ioskeley Mono", monospace;
   border: none;
-  background-color: #2E3440;
-  color: #D8DEE9;
+  background-color: #2d353b;
+  color: #d3c6aa;
   font-size: 26px;
   font-weight: 500;
 }
@@ -128,8 +128,8 @@ form input:focus {
   left: 25%;
   right: 0;
   width: 200px;
-  background: #3B4252;
-  border: 2px solid #4C566A;
+  background: #232a2e;
+  border: 2px solid #3d484d;
   /* border-radius: 0 0 8px 8px; */
   max-height: 280px;
   overflow-y: auto;
@@ -138,13 +138,13 @@ form input:focus {
 
 .autocomplete-item {
   padding: 6px 16px;
-  color: #D8DEE9;
+  color: #d3c6aa;
   cursor: pointer;
   font-size: 18px;
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.selected {
-  background: #4C566A;
-  color: #EBCB8B;
+  background: #3d484d;
+  color: #e69875;
 }
