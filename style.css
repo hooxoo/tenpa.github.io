@@ -1,7 +1,7 @@
 :root {
-  --background-color: #d3c6aa;
-  --link-hover: #e69875;
-  --link-heading: #a7c080;
+  --background-color: #1e1e2e;
+  --link-hover: #f38ba8;
+  --link-heading: #cba67f;
 }
 * {
   padding: 0;
@@ -14,7 +14,7 @@ html {
   justify-content: center;
 }
 body {
-  background-color: #3d484d;
+  background-color: #11111b;
   font-family: "Ioskeley Mono", monospace;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ body {
 .maincard {
   display: flex;
   flex-direction: column;
-  background-color: #2d353b;
+  background-color: #1e1e2e;
   margin-top: 10%;
   height: 400px;
   width: 700px;
@@ -58,7 +58,7 @@ section {
   margin-top: 1rem;
   padding-top: 5px;
   margin-left: 1rem;
-  color: #e69875;
+  color: #f38ba8;
   font-size: 18px;
   font-weight: 100;
 }
@@ -83,7 +83,7 @@ a:hover {
 a {
   padding: 0px;
   text-decoration: none;
-  color: rgba(211, 198, 170, 1);
+  color: rgba(205, 214, 244, 1);
 }
 form {
   font-size: 2.5rem;
@@ -98,8 +98,8 @@ form {
 form input {
   font-family: "Ioskeley Mono", monospace;
   border: none;
-  background-color: #2d353b;
-  color: #d3c6aa;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
   font-size: 26px;
   font-weight: 500;
 }
@@ -121,8 +121,8 @@ form input:focus {
   left: 25%;
   right: 0;
   width: 200px;
-  background: #232a2e;
-  border: 2px solid #3d484d;
+  background: #1e1e2e;
+  border: 4px solid #11111b;
   /* border-radius: 0 0 8px 8px; */
   max-height: 280px;
   overflow-y: auto;
@@ -131,13 +131,13 @@ form input:focus {
 
 .autocomplete-item {
   padding: 6px 16px;
-  color: #d3c6aa;
+  color: #cdd6f4;
   cursor: pointer;
   font-size: 18px;
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.selected {
-  background: #3d484d;
-  color: #e69875;
+  background: #11111b;
+  color: #f38ba8;
 }
