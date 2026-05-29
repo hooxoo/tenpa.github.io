@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1e1e2e;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   height: 450px;
   width: 750px;
   /* border-radius: 10px; */
