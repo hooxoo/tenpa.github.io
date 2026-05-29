@@ -25,8 +25,8 @@ body {
   flex-direction: column;
   background-color: #1e1e2e;
   margin-top: 10%;
-  height: 400px;
-  width: 700px;
+  height: 450px;
+  width: 750px;
   /* border-radius: 10px; */
   /* overflow: visible; */
   /* backdrop-filter: blur(7px); */
@@ -43,7 +43,9 @@ img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  padding: 15px 0 0 15px;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  /* padding: 15px 0 0 15px; */
 }
 section {
   display: flex;
@@ -55,9 +57,9 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   width: 340px;
-  margin-top: 1rem;
-  padding-top: 5px;
-  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  /* padding-top: px; */
   color: #f38ba8;
   font-size: 18px;
   font-weight: 100;
@@ -77,7 +79,7 @@ a:hover {
   color: var(--link-hover);
   transform: scale(2);
   margin-bottom: 2px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 a {
@@ -86,13 +88,13 @@ a {
   color: rgba(205, 214, 244, 1);
 }
 form {
-  font-size: 2.5rem;
+  font-size: 1rem;
   margin-bottom: 0px;
   padding-top: 0px;
   border: none;
   color: var(--link-heading);
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 100;
 }
 
 form input {
@@ -100,8 +102,8 @@ form input {
   border: none;
   background-color: #1e1e2e;
   color: #cdd6f4;
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 22px;
+  font-weight: 100;
 }
 form input:focus {
   outline: none;
@@ -111,14 +113,14 @@ form input:focus {
   display: flex;
   align-items: center;
   margin-top: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
 }
 
 .autocomplete {
   display: none;
   position: absolute;
   top: 100%;
-  left: 25%;
+  left: 125px;
   right: 0;
   width: 200px;
   background: #1e1e2e;
