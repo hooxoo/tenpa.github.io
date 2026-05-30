@@ -1,6 +1,6 @@
 :root {
   --background-color: #1e1e2e;
-  --link-hover: #89b4fa;
+  --link-hover: #fab387;
   --link-heading: #cba6f7;
 }
 * {
@@ -30,7 +30,7 @@ body {
   /* border-radius: 10px; */
   /* overflow: visible; */
   /* backdrop-filter: blur(7px); */
-  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  /* box-shadow: 0px 0px 5px rgb(0, 0, 0); */
 }
 .content {
   display: flex;
@@ -60,7 +60,7 @@ section {
   margin-top: 2rem;
   margin-left: 2rem;
   /* padding-top: px; */
-  color: #89b4fa;
+  color: #fab387;
   font-size: 18px;
   font-weight: 100;
 }
@@ -140,6 +140,6 @@ form input:focus {
 
 .autocomplete-item:hover,
 .autocomplete-item.selected {
-  background: #11111b;
-  color: #89b4fa;
+  /* background: #11111b; */
+  color: #fab387;
 }
